@@ -1,0 +1,25 @@
+.hamburger {
+    width: 30px;
+    height: 25px;
+    position: relative;
+    cursor: pointer;
+
+    .hamburger-menu {
+        position: absolute;
+        top: 35px;
+        left: 0;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+        z-index: 1000;
+
+        .hamburger-menu-item {
+            padding: 10px 15px;
+            border-bottom: 1px solid #eee;
+
+            &:hover {
+                background-color: #f9f9f9;
+            }
+        }
+    }
+}
