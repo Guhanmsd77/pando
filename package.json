@@ -1,0 +1,26 @@
+{
+  "name": "pando",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm start",
+    "client": "cd client && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guhanmsd77/pando.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Guhanmsd77/pando/issues"
+  },
+  "homepage": "https://github.com/Guhanmsd77/pando#readme",
+  "dependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
